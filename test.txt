@@ -27,6 +27,21 @@ git push <remote branch> ("origin master")
 
 -to get remote changes
 git fetch
-git merge <temp local branch> (eg "origin\master")
+git merge <temp local branch> (eg "origin/master")
 --- or ---
 git pull
+
+-to create a branch
+git branch <branch-name>
+
+-to switch branches
+git checkout <branchname>
+
+-to revert uncommitted changes to a file
+git checkout <filename>
+
+-to revert committed changes
+git revert <commit id>
+
+-to see commit history (get the ids)
+git log

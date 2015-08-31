@@ -1,2 +1,32 @@
 ﻿Hello this is test
 remote change
+
+-to clone (get local copy of repo)
+git clone <url>
+
+-to create a file
+touch <filename>
+
+-to write stuff to the screen
+echo <stuff>
+
+-to append stuff to a file
+<any command with output (eg echo...)> >> <file>
+
+-to see status of local repo
+git status
+
+-to add files or changes to repo (stage for commit)
+git add <file>
+
+-to commit files/changes to local repo
+git commit -m "<message>" (to add every change, then commit: git commit -am "<message>")
+
+-to push
+git push <remote branch> ("origin master")
+
+-to get remote changes
+git fetch
+git merge <temp local branch> (eg "origin\master")
+--- or ---
+git pull
